@@ -42,7 +42,7 @@ app.use(helmet({
 // CORS configuration
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://bookusautorentals.com', 'https://www.bookusautorentals.com']
+    ? ['https://bookusautorentals.com', 'https://www.bookusautorentals.com', 'http://89.116.20.150:3000', 'https://89.116.20.150:3000']
     : ['http://localhost:3000' , "*"],
   credentials: true,
   optionsSuccessStatus: 200
