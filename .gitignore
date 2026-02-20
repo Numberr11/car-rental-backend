@@ -1,0 +1,6 @@
+# Dependency folders
+node_modules/
+jspm_packages/
+
+
+.env
